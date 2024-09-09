@@ -1,0 +1,37 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(93, 93, 93, 0.5);
+}
+.popover {
+  padding: 25px 34px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: relative;
+  top: calc(50% - 90px);
+  left: calc(50% - 180px);
+  width: 360px;
+}
+.topWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.subTitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+}
+.buttonWrapper {
+  margin-top: 36px;
+  text-align: end;
+}
